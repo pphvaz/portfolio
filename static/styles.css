@@ -9,3 +9,64 @@
     text-transform: uppercase;
     font-weight: 700;
 }
+
+
+#safran::before {
+    content: "";
+    background-image: url(https://www.safran-group.com/sites/default/files/crops/manual_crop_113_55/public/node/2243208/2024-10/20241010_Linkedin_Arrano-2_0.jpg?itok=yFp9A8PR);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.12;
+  }
+
+
+#mrpizza::before {
+    content: "";
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55cf4e47e4b0c22f9be26dd4/1694090910482-502DRF1U4GU3QR2ILTKO/2B9A0054.jpg?format=2500w);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.12;
+    border-radius: 8px;
+  }
+
+#cunzolo::before {
+    content: "";
+    background-image: url(https://realguindastes.com/wp-content/uploads/2021/06/imagem-destacada-guindaste.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.12;
+    border-radius: 8px;
+  }
+
+#decathlon::before {
+    content: "";
+    background-image: url(https://noticiastrabajo.huffingtonpost.es/uploads/images/2023/01/empleo-decathlon-enero.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.12;
+    border-radius: 8px;
+  }
