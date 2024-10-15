@@ -1,0 +1,11 @@
+<header>: Define o cabeçalho da página ou de uma seção. Geralmente contém logo, título e navegação.
+<nav>: Define uma área de navegação. É usado para agrupar links de navegação.
+<main>: Define o conteúdo principal da página. Deve haver apenas um <main> por documento.
+<section>: Define uma seção genérica de conteúdo. Pode ser usado para agrupar conteúdo relacionado.
+<article>: Define um artigo independente. Pode ser um post de blog, uma notícia, ou qualquer conteúdo que faça sentido de forma isolada.
+<aside>: Define conteúdo lateral ou complementa o conteúdo principal, como uma barra lateral ou widgets.
+<footer>: Define o rodapé da página ou de uma seção. Geralmente contém informações de contato, direitos autorais, etc.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Definem os títulos e subtítulos. Sempre use-os de forma hierárquica para estruturar o conteúdo.
+<p>: Define um parágrafo de texto.
+<figure> e <figcaption>: Define uma figura e sua legenda, respectivamente. Útil para imagens e gráficos.
+<ul>, <ol>, <li>: Definem listas não ordenadas e ordenadas.

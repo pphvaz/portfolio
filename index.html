@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Alves</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <main>
+        <!-- Container principal -->
+        <div class="h-screen flex">
+            <!-- Sidebar -->
+            <div class="p-4 w-64 fixed bg-gray-800 text-white flex flex-col h-full overflow-y-auto">
+
+                <!-- Scrollable menu with links -->
+                <div class="flex-1 space-y-2">
+                    
+                    <a href="#introducao" class="block font-bold pt-1 mt-1 hover:bg-blue-800 border-b">INTRODUÇÃO</a>
+                    <div id="introducao-items">
+                        <a href="#sobre-mim" class="block p-1 rounded hover:bg-blue-800">Sobre mim</a>
+                        <a href="#objetivos" class="block p-1 rounded hover:bg-blue-800">Objetivos</a>
+                    </div>
+                    <a href="#curriculo" class="block font-bold pt-1 hover:bg-blue-800 border-b">CURRÍCULO</a>
+                    <div id="introducao-items">
+                        <a href="#formacao" class="block p-1 rounded hover:bg-blue-800">Formação Acadêmica</a>
+                        <a href="#cursos" class="block p-1 rounded hover:bg-blue-800">Cursos & Certificações</a>
+                        <a href="#trabalhos" class="block p-1 rounded hover:bg-blue-800">Trabalhos Acadêmicos</a>
+                    </div>
+                    <a href="#" class="block font-bold pt-1 hover:bg-blue-800 border-b">PROJETOS</a>
+                    <div id="introducao-items">
+                        <a href="#projeto-pizzaria" class="block p-1 rounded hover:bg-blue-800">
+                            Website para Pizzaria
+                            <p class="text-sm text-gray-400">Aplicação Web Flask para criar pedidos de pizza.</p>
+                        </a>
+                        
+                        <a href="#projeto-django" class="block p-1 rounded hover:bg-blue-800">
+                            Controle de Horário
+                            <p class="text-sm text-gray-400">Aplicação Web Django para gerenciar escala de funcionários.</p>
+                        </a>
+                        <a href="#todo-list" class="block p-1 rounded hover:bg-blue-800">
+                            To Do List
+                            <p class="text-sm text-gray-400">Aplicação Web alimentada por uma RestFUL API em Java para controlar uma ToDo list.</p>
+                        </a>
+                    </div>
+                    <a href="#" class="block font-bold pt-1 hover:bg-blue-800 border-b">HABILIDADES</a>
+                    <div id="habilidade-items">
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 1</a>
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 1</a>
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 1</a>
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 1</a>
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 1</a>
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 1</a>
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 1</a>
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 1</a>
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 2</a>
+                        <a href="#" class="block p-1 rounded hover:bg-blue-800">Habilidade 3</a>
+                    </div>
+                    <a href="#" class="block font-bold pt-1 hover:bg-blue-800 border-b">CONTATO</a>
+                    <div>
+                        <p class="block p-1"><i class="fa-solid fa-phone"></i>(12) 99126-1390</p>
+                    </div>
+                    
+                </div>    
+            </div>
+            
+            <!-- Conteúdo principal -->
+            <div class="space-y-4 ml-64 pb-20">
+                <div class="flex px-20 bg-gray-700 text-white">
+                    <div class="flex-1 flex flex-col justify-center items-center">
+                        <div style="font-size: 72px;" class="font-bold">PEDRO ALVES</div>
+                        <div>Estudante de Desenvolvimento de Software na Fatec</div>
+                    </div>
+                    <div class="flex-1 flex items-end justify-center">
+                        <img style="max-height: 600px;" src="static/imagens/profile.png" alt="">
+                    </div>
+                </div>
+                <div class="pl-4 pb-10">
+                    <section class="my-8">
+                        <header>
+                            <h1 id="introducao" class="section-title">INTRODUÇÃO</h1>
+                        </header>
+                        <section>
+                            <h1 id="sobre-mim" class="section-subtitle">Sobre mim</h1>
+                            <p>
+                                Nascido em 6 de fevereiro de 1999, na pequena cidade de Cachoeira Paulista. Aos 17, mudou-se para São José dos Campos para cursar o Técnico em Mecânica no IFSP. Sua paixão pela aviação o levou a começar no ano seguinte o curso Tecnólogo em Manutenção de Aeronaves na Fatec, o qual concluiu em 2019.
+                            </p><br>
+                            <p>
+                                Começou a trabalhar em uma multinacional de aviação: Safran Cabin Brazil, que é a maior fabricante de interiores de aeronaves do mundo. Mas sentia que ainda lhe faltava alguma coisa. 
+                                Com o advento da pandemia, foi mandado embora e então, começou o planajamento para uma das suas maiores aventuras: mudar-se para Portugal. 
+                            </p><br>
+                            <p>
+                                Em agosto de 2021, embarcou para uma experiência que duraria 2 anos e meio na Europa. Trabalhou em muitos lugares, incluindo posições como vendedor na Decathlon Portugal e também estafeta (motoboy) numa pizzaria onde chegou a gerente.
+                                Embora a experiência de morar em Portugal tenha sido um grande acerto, viu que sua carreira estava estagnada e não poderia continuar assim. Começou então, em 2023, a estudar Ciência da Computação, pois ela poderia proporcionar características que ele achava extremamente importantes: liberdade geográfica e bons salários.
+                            </p><br>
+                            <p>
+                                Depois de um ano, ainda trabalhando no restaurante e estudando TI sozinho, viu que seria muito difícil conseguir uma oportunidade em Portugal para entrar no mercado de tecnologia, uma vez que o grande diferencial era experiência na área. Decidiu, portanto, voltar para o Brasil. Inscreveu-se para o vestibular do curso Desenvolvimento de Software da Fatec e passou.
+                            </p><br>
+                            <p>
+                                Desde então viu que sua escolha de voltar ao Brasil foi extremamente acertada. Além do apoio familiar, está aprendendo em um curso difícil que o desafia a sair da zona de conforto e buscar conhecimento em cursos, livros, documentação técnica.
+                            </p>
+                        </section>
+                        <section>
+                            <h1 id="objetivos" class="section-subtitle">Objetivos</h1>
+                            <p>
+                                Seu maior objetivo hoje é entrar no mercado Tech, através de um estágio. Mais especificamente, busca oportunidades para desenvolver suas habilidades com Java e as tecnologias que compoem esse ecossitema.
+                            </p>
+                        </section>
+                        
+                    </section>
+                    <section class="my-8">
+                        <header>
+                            <h1 id="curriculo" class="section-title">CURRÍCULO</h1>
+                        </header>
+                        <section>
+                            <header id="formacao" class="section-subtitle">
+                                <h1>Formação acadêmica</h1>
+                            </header>
+                            <!-- Card Container -->
+                            <div class="flex flex-col space-y-4">
+                                
+                                <!-- Card 1 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="w-16 h-16 mr-4">
+                                        <img src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/08/fatec-identidade.jpg" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-xl font-bold text-gray-800">Desenvolvimento de Software Multiplataforma</h2>
+                                        <p class="text-gray-600">Faculdade de Tecnologia - FATEC</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2024-2027
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        em andamento
+                                    </div>
+                                </div>
+
+                                <!-- Card 2 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="w-16 h-16 mr-4">
+                                        <img src="https://dp828as6rrq5m.cloudfront.net/wp-content/uploads/2024/03/12091106/logo-verde.svg" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-xl font-bold text-gray-800">Análise e Desenvolvimento de Sistemas</h2>
+                                        <p class="text-gray-600">Faculdade Descomplica</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2023-2024
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        transferido
+                                    </div>
+                                </div>
+
+                                <!-- Card 3 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="w-16 h-16 mr-4">
+                                        <img src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/08/fatec-identidade.jpg" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-xl font-bold text-gray-800">Manutenção de Aeronaves</h2>
+                                        <p class="text-gray-600">Faculdade de Tecnologia - FATEC</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2017-2019
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        concluído
+                                    </div>
+                                </div>
+                                <!-- Card 4 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="w-16 h-16 mr-4">
+                                        <img src="https://www.ifsp.edu.br/images/Marca_IFSP_2015031.png" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-xl font-bold text-gray-800">Técnico em Mecânica</h2>
+                                        <p class="text-gray-600">Instituto Federal de São Paulo - IFSP</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2016-2017
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        concluído
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </section>
+                        <section>
+                            <header id="cursos" class="section-subtitle">
+                                <h1>Cursos & Certificações</h1>
+                            </header>
+                            <div class="flex flex-col space-y-4">
+                                
+                                <!-- Card 1 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="flex w-16 h-16 mr-4">
+                                        <img src="https://javapro.io/de/wp-content/uploads/sites/1/2022/04/SpringBoot-Logo-qu.png" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-l font-bold text-gray-800">Microsserviços com Spring e RabbitMQ + AWS
+                                        </h2>
+                                        <p class="text-gray-600">Udemy</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2024
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        <a href="https://www.udemy.com/certificate/UC-3c6b50f6-d77c-41a1-bac2-f8c43c8334e4/">em andamento</a> 
+                                    </div>
+                                </div>
+
+                                <!-- Card 1 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="flex w-16 h-16 mr-4">
+                                        <img src="https://assets-blog.hostgator.com.br/wp-content/uploads/2021/03/logo-angular.webp" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-l font-bold text-gray-800">Angular 17 - Front-End Development</h2>
+                                        <p class="text-gray-600">Udemy</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2024
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        <a href="https://www.udemy.com/certificate/UC-3c6b50f6-d77c-41a1-bac2-f8c43c8334e4/">certificado verificado: UC-3c6b50f6-d77c-41a1-bac2-f8c43c8334e4</a> 
+                                    </div>
+                                </div>
+
+                                <!-- Card 5 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="flex w-16 h-16 mr-4">
+                                        <img src="https://grupolidertecnologia.com.br/wp-content/uploads/2023/03/oracle-2.png" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-l font-bold text-gray-800">Java Explorer Badge</h2>
+                                        <p class="text-gray-600">Oracle</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2024
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        <a href="https://credentials.edx.org/credentials/c3dd9af3fdc04791993d6388272c6222/"></a> 
+                                    </div>
+                                </div>
+
+                                <!-- Card 2 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="flex w-16 h-16 mr-4">
+                                        <img src="https://javapro.io/de/wp-content/uploads/sites/1/2022/04/SpringBoot-Logo-qu.png" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-l font-bold text-gray-800">Java with SpringBoot building a RESTFul API</h2>
+                                        <p class="text-gray-600">Udemy</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2024
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        <a href="https://www.udemy.com/certificate/UC-3c6b50f6-d77c-41a1-bac2-f8c43c8334e4/">certificado verificado: UC-3c6b50f6-d77c-41a1-bac2-f8c43c8334e4</a> 
+                                    </div>
+                                </div>
+
+                                <!-- Card 3 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="flex w-16 h-16 mr-4">
+                                        <img src="https://static.cdnlogo.com/logos/h/99/harvard-university.png" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-l font-bold text-gray-800">CS50x: CS50's Introduction to Computer Science</h2>
+                                        <p class="text-gray-600">HarvardX</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2023
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        <a href="https://courses.edx.org/certificates/9d07f2f7e4c344cd9e80a4bf142f1db7">certificado verificado: 9d07f2f7e4c344cd9e80a4bf142f1db7</a> 
+                                    </div>
+                                </div>
+
+                                <!-- Card 4 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="flex w-16 h-16 mr-4">
+                                        <img src="https://static.cdnlogo.com/logos/h/99/harvard-university.png" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-l font-bold text-gray-800">CS50W: CS50's Web Programming with Python and JavaScript</h2>
+                                        <p class="text-gray-600">HarvardX</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2023
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        <a href="https://courses.edx.org/certificates/a26183ea5cff4836ac85080451a50412">certificado verificado: a26183ea5cff4836ac85080451a50412</a> 
+                                    </div>
+                                </div>
+                                
+                                
+
+                                <!-- Card 5 -->
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                    <!-- Logo da Instituição -->
+                                    <div class="flex w-16 h-16 mr-4">
+                                        <img src="https://static.cdnlogo.com/logos/h/99/harvard-university.png" alt="Logo da Instituição" class="w-full h-full object-contain">
+                                    </div>
+                                    <!-- Detalhes do curso -->
+                                    <div>
+                                        <h2 class="text-l font-bold text-gray-800">Computer Science for Web Programming</h2>
+                                        <p class="text-gray-600">HarvardX</p>
+                                    </div>
+                                    <!-- Ano de Conclusão -->
+                                    <div class="absolute top-4 right-4 text-gray-500 font-bold text-sm">
+                                        2023
+                                    </div>
+                                    <div class="absolute bottom-4 right-4 text-gray-500 text-sm">
+                                        <a href="https://credentials.edx.org/credentials/c3dd9af3fdc04791993d6388272c6222/">certificado verificado: c3dd9af3fdc04791993d6388272c6222</a> 
+                                    </div>
+                                </div>
+                                <section>
+                                    <header id="trabalhos" class="section-subtitle">
+                                        <h1>Trabalhos Acadêmicos</h1>
+                                    </header>
+
+                                    <div class="mr-8 flex flex-col space-y-2">
+                                        
+                                        <!-- Inicio Card -->
+                                        <div class="p-4 border rounded relative space-y-2 shadow-md">
+                                            <h2 class="text-xl font-bold text-gray-800">
+                                                <a href="https://github.com/nicolygz/the-devs-department">Aplicação Web com Flask</a>
+                                            </h2>
+                                            <h2 class="font-bold text-gray-600">Metodologia Ágil: Scrum</h2>
+                                            <p class="text-gray-600">
+                                                O projeto consiste na criação de um website para monitoramento da atuação dos vereadores de São José dos Campos, SP.
+                                            </p>
+                                            <h2 class="font-bold">Tecnologias Utilizadas:</h2>
+                                            <div class="flex-1 flex items-center">
+                                                <img class="flex w-12 h-12 mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt=""> 
+                                                <img class="flex w-12 h-12 mr-4" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt=""> 
+                                                <img class="flex w-12 h-12 mr-4" src="https://images.ctfassets.net/em6l9zw4tzag/oVfiswjNH7DuCb7qGEBPK/b391db3a1d0d3290b96ce7f6aacb32b0/python.png" alt=""> 
+                                                <img class="flex w-12 h-12 mr-4" src="https://www.portalgsti.com.br/media/uploads/marcomascarenhas/javascript.png" alt=""> 
+                                                <img class="flex w-12 h-12 mr-4" src="https://blog.appseed.us/content/images/2023/10/cover-flask.jpg" alt=""> 
+                                                <img class="flex w-12 h-12 mr-4" src="https://res.cloudinary.com/appmasters-io/image/upload/v1624744345/mysql_87a2317566.png" alt=""> 
+                                            </div>
+                                            <div class="font-bold space-y-4">
+                                                <h2>Imagens do projeto:</h2>
+                                                <div class="flex flex-wrap gap-6 justify-center">
+                                                    <!-- Imagem 1 -->
+                                                    <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                        <img src="vereador-1.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                    </div>
+                                                    <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                        <img src="vereador-2.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                    </div>
+                                                    <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                        <img src="vereador-3.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                    </div>
+                                                    <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                        <img src="vereador-4.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                    </div>
+                                            </div>
+
+
+                                            <div class="absolute top-4 right-4">
+                                                <div class="flex-1">
+                                                    <img class="w-16 h-12"src="https://image.portaldacidade.com/unsafe/https://bucket.portaldacidade.com/mogimirim.portaldacidade.com/img/news/2019-10/fatec-de-mogi-divulga-novo-curso-fabricacao-mecanica-5dafbd16025f2.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Fim card -->
+                                    </div>
+
+                                </section>
+
+                                <section>
+                                    <header class="section-subtitle">
+                                        <h1>PROJETOS</h1>
+                                    </header>
+                                    
+                                    <div class="space-y-4">
+                                        <!-- Inicio Card -->
+                                        <div class="mr-8 flex flex-col space-y-2">
+                                            <div id="projeto-pizzaria"class="p-4 border rounded relative space-y-2 shadow-md">
+                                                <h2 class="text-xl font-bold text-gray-800">
+                                                    <a href="https://github.com/nicolygz/the-devs-department">Aplicação Web para Pizzaria!</a>
+                                                </h2>
+                                                <h2 class="font-bold text-gray-600">Trabalho final entregue para obtenção do certificado verificado do curso CS50x de Harvard.</h2>
+                                                <p class="text-gray-600">
+                                                    Usando Flask e programação em Python, criei um site que simplifica o processo de pedidos de pizza, oferecendo uma plataforma prática e envolvente para os clientes.
+                                                </p>
+                                                <h2 class="font-bold">Tecnologias Utilizadas:</h2>
+                                                <div class="flex-1 flex items-center">
+                                                    <img class="flex w-12 h-12 mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt=""> 
+                                                    <img class="flex w-12 h-12 mr-4" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt=""> 
+                                                    <img class="flex w-12 h-12 mr-4" src="https://images.ctfassets.net/em6l9zw4tzag/oVfiswjNH7DuCb7qGEBPK/b391db3a1d0d3290b96ce7f6aacb32b0/python.png" alt=""> 
+                                                    <img class="flex w-12 h-12 mr-4" src="https://www.portalgsti.com.br/media/uploads/marcomascarenhas/javascript.png" alt=""> 
+                                                    <img class="flex w-12 h-12 mr-4" src="https://blog.appseed.us/content/images/2023/10/cover-flask.jpg" alt=""> 
+                                                    <img class="flex w-12 h-12 mr-4" src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt=""> 
+                                                </div>
+                                                <div class="font-bold space-y-4">
+                                                    <h2>Imagens do projeto:</h2>
+                                                    <div class="flex flex-wrap gap-6 justify-center">
+                                                        <!-- Imagem 1 -->
+                                                        <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                            <img src="pizzaria-1.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        </div>
+                                                        <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                            <img src="pizzaria-2.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        </div>
+                                                        <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                            <img src="pizzaria-3.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        </div>
+                                                        <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                            <img src="pizzaria-4.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        </div>
+                                                </div>
+                                                <div class="items-center">
+                                                    <a href="https://github.com/pphvaz/Flask-Restaurant-Order-Management" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Repositório no Github</a>
+                                                </div>
+
+                                                <div class="absolute top-4 right-4">
+                                                    <div class="flex-1">
+                                                        <img class="w-16 h-14"src="https://static.cdnlogo.com/logos/h/99/harvard-university.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        <!-- Fim card -->
+
+                                        <!-- Inicio Card -->
+                                            <div class=" flex flex-col space-y-2">
+                                                <div id="projeto-django"class="p-4 border rounded relative space-y-2 shadow-md">
+                                                    <h2 class="text-xl font-bold text-gray-800">
+                                                        <a href="https://github.com/nicolygz/the-devs-department">Aplicação Web para Gerenciar Escala de Trabalho</a>
+                                                    </h2>
+                                                    <h2 class="font-bold text-gray-600">Trabalho final entregue para obtenção do certificado verificado do curso CS50w de Harvard.</h2>
+                                                    <p class="text-gray-600">
+                                                        Esta aplicação web foi desenvolvida para resolver a necessidade de gerenciar eficientemente os horários dos funcionários em um restaurante.
+                                                    </p>
+                                                    <h2 class="font-bold">Tecnologias Utilizadas:</h2>
+                                                    <div class="flex-1 flex items-center">
+                                                        <img class="flex w-12 h-12 mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt=""> 
+                                                        <img class="flex w-12 h-12 mr-4" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt=""> 
+                                                        <img class="flex w-12 h-12 mr-4" src="https://images.ctfassets.net/em6l9zw4tzag/oVfiswjNH7DuCb7qGEBPK/b391db3a1d0d3290b96ce7f6aacb32b0/python.png" alt=""> 
+                                                        <img class="flex w-12 h-12 mr-4" src="https://www.portalgsti.com.br/media/uploads/marcomascarenhas/javascript.png" alt=""> 
+                                                        <img class="flex w-12 h-12 mr-4" src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" alt=""> 
+                                                        <img class="flex w-12 h-12 mr-4" src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt=""> 
+                                                    </div>
+                                                    <div class="font-bold space-y-4">
+                                                        <h2>Imagens do projeto:</h2>
+                                                        <div class="flex flex-wrap gap-6 justify-center">
+                                                            <!-- Imagem 1 -->
+                                                            <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                                <img src="django-1.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            </div>
+                                                            <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                                <img src="django-2.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            </div>
+                                                            <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                                <img src="django-3.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            </div>
+                                                            <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                                <img src="django-4.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            </div>
+                                                            <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                                <img src="django-5.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            </div>
+                                                    </div>
+                                                    <div class="items-center">
+                                                        <a href="https://github.com/pphvaz/Django-Restaurant-Scheduling-App" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Repositório no Github</a>
+                                                    </div>
+    
+                                                    <div class="absolute top-4 right-4">
+                                                        <div class="flex-1">
+                                                            <img class="w-16 h-14"src="https://static.cdnlogo.com/logos/h/99/harvard-university.png" alt="">
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <!-- Fim card -->
+
+                                         <!-- Inicio Card -->
+                                         <div id="todo-list" class=" flex flex-col space-y-2">
+                                            <div id="projeto-django"class="p-4 border rounded relative space-y-2 shadow-md">
+                                                <h2 class="text-xl font-bold text-gray-800">
+                                                    <a href="https://github.com/nicolygz/the-devs-department">ToDo List com Java e Angular</a>
+                                                </h2>
+                                                <h2 class="font-bold text-gray-600">Projeto com objetivo de colocar em prática a criação de uma RestFUL API e integrar com o Front-End que utiliza Angular.</h2>
+                                                <p class="text-gray-600">
+                                                    Esta aplicação web foi desenvolvida para resolver a necessidade de criar tarefas (To Do's) para monitorar as atividades num dia.
+                                                </p>
+                                                <h2 class="font-bold">Tecnologias Utilizadas:</h2>
+                                                <div class="flex-1 flex items-center">
+                                                    <img class="flex w-12 h-12 mr-4" src="https://yt3.googleusercontent.com/y4J_Fs5ksRlxx6_LzT1VKxVqH_T8Vyn_RN_YYgLJhuMzBS5qxTgm7NlEcMkQd3hgCpfWtYcEUg=s900-c-k-c0x00ffffff-no-rj" alt=""> 
+                                                    <img class="flex w-12 h-12 mr-4" src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png?f=webp&w=256" alt=""> 
+                                                    <img class="flex w-12 h-12 mr-4" src="https://du0ulnyus7r80.cloudfront.net/wp-content/uploads/2020/02/spring-boot-logo-png-4-transparent.png" alt=""> 
+                                                    <img class="flex w-12 h-12 mr-4" src="https://res.cloudinary.com/appmasters-io/image/upload/v1624744345/mysql_87a2317566.png" alt=""> 
+                                                    <img class="flex w-16 h-12 mr-4" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt=""> 
+                                                </div>
+                                                <div class="font-bold space-y-4">
+                                                    <h2>Imagens do projeto:</h2>
+                                                    <div class="flex flex-wrap gap-6 justify-center">
+                                                        <!-- Imagem 1 -->
+                                                        <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                            <img src="todo-1.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        </div>
+                                                        <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
+                                                            <img src="todo-2.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        </div>
+                                                </div>
+                                                <div class="items-center">
+                                                    <a href="https://github.com/pphvaz/tasks-app" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Repositório no Github</a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <!-- Fim card -->
+                                        </div>
+                                        </div>
+
+
+
+                                </section>
+
+                                
+                            </div>
+
+                        </section>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
