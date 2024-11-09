@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Alves</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="static/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -13,9 +13,9 @@
     
     <main>
         <!-- Container principal -->
-        <div class="h-screen flex">
+        <div class="h-screen flex mx-auto">
             <!-- Sidebar -->
-            <div class="p-4 w-64 fixed bg-gray-800 text-white flex flex-col h-full overflow-y-auto pb-5">
+            <div class="p-4 w-64 fixed bg-gray-800 text-white flex flex-col h-full overflow-y-auto pb-5 hidden md:flex">
 
                 <!-- Scrollable menu with links -->
                 <div class="flex-1 space-y-2">
@@ -377,17 +377,17 @@
             </div>
             
             <!-- Conteúdo principal -->
-            <div class="space-y-4 ml-64 pb-20">
-                <div class="flex px-20 bg-gray-700 text-white">
-                    <div class="flex-1 flex flex-col justify-center items-center">
+            <div class="space-y-4 md:ml-64 ml-0 w-full">
+                <div class="flex flex-wrap md:flex-nowrap gap-y-4 px-20 bg-gray-700 text-white">
+                    <div class="flex flex-col justify-center items-center">
                         <div style="font-size: 72px;" class="font-bold">PEDRO ALVES</div>
                         <div>Estudante de Desenvolvimento de Software na Fatec</div>
                     </div>
-                    <div class="flex-1 flex items-end justify-center">
+                    <div class="flex items-end justify-center">
                         <img style="max-height: 600px;" src="static/imagens/profile.png" alt="">
                     </div>
                 </div>
-                <div class="pl-4">
+                <div class="px-2">
                     <section class="my-8">
                         <header>
                             <h1 id="introducao" class="section-title">INTRODUÇÃO</h1>
@@ -430,13 +430,13 @@
                                 <h1>Experiência profissional</h1>
                             </header>
                             <!-- Card Container -->
-                            <div class="space-y-4 mr-8">
+                            <div class="space-y-4 ">
                                 <!-- Card 1 -->
                                  <div class="text-white relative rounded-lg">
                                      <div id="mrpizza" class="rounded-lg space-y-2 bg-gray-800 shadow-md p-4">
                                          <!-- Logo da Instituição -->
                                           <div class="flex flex-row items-center justify-between h-12">
-                                             <img class="w-36 object-contain" src="mrpizzalogo-removebg-preview.png" alt="Logo da Instituição" >
+                                             <img class="w-36 object-contain" src="https://images.squarespace-cdn.com/content/v1/55cf4e47e4b0c22f9be26dd4/65ecf3f3-bb34-4bf7-b466-d3315168859c/Mrpizza+logotipo.jpeg?format=1500w" alt="Logo da Instituição" >
                                              <p class="text-sm">de 11/2023 até 06/2024</p>
                                           </div>
                                          <!-- Detalhes do curso -->
@@ -518,13 +518,13 @@
                             <div class="flex flex-col space-y-4">
                                 
                                 <!-- Card 1 -->
-                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 ">
                                     <!-- Logo da Instituição -->
                                     <div class="w-16 h-16 mr-4">
                                         <img src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/08/fatec-identidade.jpg" alt="Logo da Instituição" class="w-full h-full object-contain">
                                     </div>
                                     <!-- Detalhes do curso -->
-                                    <div>
+                                    <div class="pt-5 pb-5">
                                         <h2 class="text-xl font-bold text-gray-800">Desenvolvimento de Software Multiplataforma</h2>
                                         <p class="text-gray-600">Faculdade de Tecnologia - FATEC</p>
                                     </div>
@@ -538,13 +538,13 @@
                                 </div>
 
                                 <!-- Card 2 -->
-                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 ">
                                     <!-- Logo da Instituição -->
                                     <div class="w-16 h-16 mr-4">
                                         <img src="https://dp828as6rrq5m.cloudfront.net/wp-content/uploads/2024/03/12091106/logo-verde.svg" alt="Logo da Instituição" class="w-full h-full object-contain">
                                     </div>
                                     <!-- Detalhes do curso -->
-                                    <div>
+                                    <div class="py-5">
                                         <h2 class="text-xl font-bold text-gray-800">Análise e Desenvolvimento de Sistemas</h2>
                                         <p class="text-gray-600">Faculdade Descomplica</p>
                                     </div>
@@ -558,13 +558,13 @@
                                 </div>
 
                                 <!-- Card 3 -->
-                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 ">
                                     <!-- Logo da Instituição -->
                                     <div class="w-16 h-16 mr-4">
                                         <img src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/08/fatec-identidade.jpg" alt="Logo da Instituição" class="w-full h-full object-contain">
                                     </div>
                                     <!-- Detalhes do curso -->
-                                    <div>
+                                    <div class="my-5">
                                         <h2 class="text-xl font-bold text-gray-800">Manutenção de Aeronaves</h2>
                                         <p class="text-gray-600">Faculdade de Tecnologia - FATEC</p>
                                     </div>
@@ -577,13 +577,13 @@
                                     </div>
                                 </div>
                                 <!-- Card 4 -->
-                                <div class="bg-white rounded-lg relative shadow-md flex p-4 mr-8">
+                                <div class="bg-white rounded-lg relative shadow-md flex p-4 ">
                                     <!-- Logo da Instituição -->
                                     <div class="w-16 h-16 mr-4">
                                         <img src="https://www.ifsp.edu.br/images/Marca_IFSP_2015031.png" alt="Logo da Instituição" class="w-full h-full object-contain">
                                     </div>
                                     <!-- Detalhes do curso -->
-                                    <div>
+                                    <div class="my-5">
                                         <h2 class="text-xl font-bold text-gray-800">Técnico em Mecânica</h2>
                                         <p class="text-gray-600">Instituto Federal de São Paulo - IFSP</p>
                                     </div>
@@ -603,7 +603,7 @@
                                 <h1>Cursos & Certificações</h1>
                             </header>
                             <div class="flex flex-col space-y-4">
-                            <section class="flex flex-row justify-left flex-wrap mr-8 space-y-6 gap-x-6">
+                            <section class="flex flex-row justify-center sm:justify-start flex-wrap  space-y-6 gap-x-6">
                                 <!-- Card 1 -->
                                 <div class="w-[250px] min-w-[250px] max-w-[250px] overflow-hidden text-center rounded-lg shadow-md flex flex-col p-4 space-y-4 items-center">
                                     <!-- Logo da Instituição -->
@@ -769,7 +769,7 @@
                                         <h1>Trabalhos Acadêmicos</h1>
                                     </header>
 
-                                    <div class="mr-8 flex flex-col space-y-2">
+                                    <div class=" flex flex-col space-y-2">
                                         
                                         <!-- Inicio Card -->
                                         <div class="p-4 border rounded relative space-y-2 shadow-md">
@@ -794,16 +794,16 @@
                                                 <div class="flex flex-wrap gap-6 justify-center">
                                                     <!-- Imagem 1 -->
                                                     <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                        <img src="vereador-1.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        <img src="static/imagens/vereador-1.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                     </div>
                                                     <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                        <img src="vereador-2.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        <img src="static/imagens/vereador-2.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                     </div>
                                                     <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                        <img src="vereador-3.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        <img src="static/imagens/vereador-3.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                     </div>
                                                     <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                        <img src="vereador-4.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                        <img src="static/imagens/vereador-4.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                     </div>
                                             </div>
 
@@ -826,7 +826,7 @@
                                     
                                     <div class="space-y-4">
                                         <!-- Inicio Card -->
-                                        <div class="mr-8 flex flex-col space-y-2">
+                                        <div class=" flex flex-col space-y-2">
                                             <div id="projeto-pizzaria"class="p-4 border rounded relative space-y-2 shadow-md">
                                                 <h2 class="text-xl font-bold text-gray-800">
                                                     <a href="https://github.com/nicolygz/the-devs-department">Aplicação Web para Pizzaria!</a>
@@ -849,16 +849,16 @@
                                                     <div class="flex flex-wrap gap-6 justify-center">
                                                         <!-- Imagem 1 -->
                                                         <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                            <img src="pizzaria-1.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            <img src="static/imagens/pizzaria-1.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                         </div>
                                                         <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                            <img src="pizzaria-2.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            <img src="static/imagens/pizzaria-2.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                         </div>
                                                         <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                            <img src="pizzaria-3.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            <img src="static/imagens/pizzaria-3.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                         </div>
                                                         <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                            <img src="pizzaria-4.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            <img src="static/imagens/pizzaria-4.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                         </div>
                                                 </div>
                                                 <div class="items-center">
@@ -898,19 +898,19 @@
                                                         <div class="flex flex-wrap gap-6 justify-center">
                                                             <!-- Imagem 1 -->
                                                             <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                                <img src="django-1.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                                <img src="static/imagens/django-1.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                             </div>
                                                             <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                                <img src="django-2.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                                <img src="static/imagens/django-2.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                             </div>
                                                             <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                                <img src="django-3.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                                <img src="static/imagens/django-3.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                             </div>
                                                             <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                                <img src="django-4.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                                <img src="static/imagens/django-4.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                             </div>
                                                             <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                                <img src="django-5.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                                <img src="static/imagens/django-5.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                             </div>
                                                     </div>
                                                     <div class="items-center">
@@ -949,10 +949,10 @@
                                                     <div class="flex flex-wrap gap-6 justify-center">
                                                         <!-- Imagem 1 -->
                                                         <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                            <img src="todo-1.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            <img src="static/imagens/todo-1.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                         </div>
                                                         <div class="w-[520px] overflow-hidden rounded-lg shadow-lg">
-                                                            <img src="todo-2.png" alt="Imagem 1" class="w-[520px] object-cover">
+                                                            <img src="static/imagens/todo-2.png" alt="Imagem 1" class="w-[520px] object-cover">
                                                         </div>
                                                 </div>
                                                 <div class="items-center">
@@ -965,64 +965,55 @@
                                     </div>
                                 </section>
 
-                                <!-- CONTATOS -->
-                                <section class="bg-gray-800 text-white py-10">
-                                    <header id="contato" class="section-subtitle">
-                                    </header>
-                                    <div class="grid grid-cols-3 gap-4 mr-8 text-center">
-                                        <div class="flex flex-col">
-                                            <div class="flex-1">
-                                                <i class="fas fa-envelope text-white text-3xl"></i>
-                                                <p class="section-subtitle">Email</p>
-                                            </div>
-                                            <div class="flex-1">
-                                                <p>Tem alguma dúvida?</p>
-                                            </div>
-                                            <div class="flex-1">
-                                                <p class="font-bold">pedrohvs.alves@gmail.com</p>
-                                            </div>
-                                        </div>
-                                        <div class="flex flex-col">
-                                            <div class="flex-1">
-                                                <i class="fas fa-phone-alt text-white text-3xl"></i>
-                                                <p class="section-subtitle">Telefone</p>
-                                            </div>
-                                            <div class="flex-1">
-                                                <p>Entre em contato:</p>
-                                            </div>
-                                            <div class="flex-1">
-                                                <p class="font-bold">(12) 99126-1390</p>
-                                            </div>
-                                        </div>
-                                        <div class="flex flex-col">
-                                            <div class="flex-1">
-                                                <i class="fas fa-globe text-white text-3xl"></i>
-                                                <p class="section-subtitle">Socials</p>
-                                            </div>
-                                            <div class="flex-1">
-                                                <p>As minhas redes sociais:</p>
-                                            </div>
-                                            <div class="flex-1 flex gap-4 justify-center">
-                                                <a href="https://github.com/pphvaz"><i class="fab fa-github text-white text-3xl"></i></a>
-                                                <a href="https://www.linkedin.com/in/pedro-alves-579a93140/"><i class="fab fa-linkedin text-white text-3xl"></i></a>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-
-                                
                             </div>
                         </section>
-
                     </section>
+                    <!-- CONTATOS -->
+                    <section class="bg-gray-800 flex justify-center text-white py-10">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center w-full max-w-screen-lg">
+                          <div class="flex flex-col">
+                            <div class="flex-1">
+                              <i class="fas fa-envelope text-white text-3xl"></i>
+                              <p class="section-subtitle">Email</p>
+                            </div>
+                            <div class="flex-1">
+                              <p>Tem alguma dúvida?</p>
+                            </div>
+                            <div class="flex-1">
+                              <p class="font-bold">pedrohvs.alves@gmail.com</p>
+                            </div>
+                          </div>
+                          <div class="flex flex-col">
+                            <div class="flex-1">
+                              <i class="fas fa-phone-alt text-white text-3xl"></i>
+                              <p class="section-subtitle">Telefone</p>
+                            </div>
+                            <div class="flex-1">
+                              <p>Entre em contato:</p>
+                            </div>
+                            <div class="flex-1">
+                              <p class="font-bold">(12) 99126-1390</p>
+                            </div>
+                          </div>
+                          <div class="flex flex-col">
+                            <div class="flex-1">
+                              <i class="fas fa-globe text-white text-3xl"></i>
+                              <p class="section-subtitle">Socials</p>
+                            </div>
+                            <div class="flex-1">
+                              <p>As minhas redes sociais:</p>
+                            </div>
+                            <div class="flex-1 flex gap-4 justify-center">
+                              <a href="https://github.com/pphvaz"><i class="fab fa-github text-white text-3xl"></i></a>
+                              <a href="https://www.linkedin.com/in/pedro-alves-579a93140/"><i class="fab fa-linkedin text-white text-3xl"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
                 </div>
             </div>
         </div>
     </main>
-    <footer>
-
-    </footer>
     
 </body>
 </html>

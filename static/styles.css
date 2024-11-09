@@ -13,7 +13,7 @@
 
 #safran::before {
     content: "";
-    background-image: url(../safran.jpg);
+    background-image: url(../static/imagens/safran.jpg);
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -28,7 +28,7 @@
 
 #mrpizza::before {
     content: "";
-    background-image: url(../pizzaiolo.webp);
+    background-image: url(../static/imagens/pizzaiolo.webp);
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -43,7 +43,7 @@
 
 #cunzolo::before {
     content: "";
-    background-image: url(../guindaste.png);
+    background-image: url(../static/imagens/guindaste.png);
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -58,7 +58,7 @@
 
 #decathlon::before {
     content: "";
-    background-image: url(../decathlon.webp);
+    background-image: url(../static/imagens/decathlon.webp);
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
